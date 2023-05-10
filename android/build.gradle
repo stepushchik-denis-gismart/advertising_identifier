@@ -23,6 +23,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 31
+    namespace 'io.github.v7lin.advertising_identifier'
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
